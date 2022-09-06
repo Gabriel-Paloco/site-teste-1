@@ -1,0 +1,33 @@
+body{
+    color: white;
+    background-color: black;                                               /*estipulando fundo cor das letras/fundo */
+    font-family: Arial, Helvetica, sans-serif;                              /*selecionando tipo e tamanho da fonte das letras  */  
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;                                         /*estipulando as medidas as proporções da navbar */
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: rgb(255,94,0);                                                /* alterando a cor das letras na navbar */
+    text-decoration: none;
+}
+
+
+.center{
+    text-align: center;                                                  /*centralizando texto */
+}
+
+h1{
+    color: rgb(255, 94, 0);                                         /* configurando título h1 da página */
+    font-size: 40px;
+}
+img {
+    width: 500px;                                           /*configurando imagem da página */
+    height: 250px;
+}
